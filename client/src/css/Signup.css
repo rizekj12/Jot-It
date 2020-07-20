@@ -1,0 +1,37 @@
+.signupDiv{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+}
+
+.signupForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto 600px;
+    border-color: white;
+    background-color: #8C8C8C;
+    height: 150px ;
+    border-radius: 5%;   
+}
+
+.signupTitle{
+    margin-top: 50px;
+}
+
+.signupInput{
+    margin: 7px;
+}
+
+.signupButton{
+    margin: auto;
+    background-color:#D4978C;
+    border:none;  
+}
+
+.signupButton:hover{
+    background-color: #76C5D3;
+
+}

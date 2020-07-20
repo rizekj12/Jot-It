@@ -1,17 +1,17 @@
 import React from 'react'
-import Header from './Header'
+import "../css/Login.css"
 
 export default function Login(props) {
     return (
-        <div>
-            <Header specialLink="/"/>
-            <form onSubmit = {(e) => {
+        <div className="loginDiv">
+            <h2>Log in</h2>
+            <form className="loginForm" onSubmit = {(e) => {
         e.preventDefault();
         props.handleLogin();
         }}>
-                <input onChange = {props.handleChange} type="text" name="username" placeholder="username"/>
-                <input onChange = {props.handleChange} type="password" name="password" placeholder="password"/>
-                <button>submit</button>
+                <input className="loginInput" onChange = {props.handleChange} type="text" name="username" placeholder="username"/>
+                <input className="loginInput" onChange = {props.handleChange} type="password" name="password" placeholder="password"/>
+                <button className="loginSubmit">submit</button>
             </form>
             
         </div>

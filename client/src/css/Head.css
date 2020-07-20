@@ -1,0 +1,34 @@
+.heading{
+   background-color:#76C5D3;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: white;
+}
+
+.loginButton{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin: 20px;
+   font-size: 20px;
+   width: 60px;
+   text-align: center;
+}
+
+.loginButton:hover{
+   background-color: #D4978C;
+}
+
+.loggedinNav{
+ margin: 20px;
+ font-weight: bold;
+ font-size: 15px;
+ color: #D4978C;
+}
+
+
+.Logo{
+
+   margin:25px;
+}

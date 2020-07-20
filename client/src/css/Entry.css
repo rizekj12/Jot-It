@@ -1,0 +1,48 @@
+.entryDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto;
+    text-align: center;
+  
+    
+}
+
+.contentDiv{
+/* position: absolute; */
+background-color: #8C8C8C;
+height: 375px;
+width: 325px;
+border-radius: 5%;
+margin:auto;
+}
+
+.buttonsDiv{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+.entryButton{
+    background-color:#D4978C;
+    border: none;
+    margin: 5px;
+}
+
+img{
+    height: 175px;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.entryParagraph{
+    margin-top: -10px;
+}
+
+.entryTitle{
+    text-align: center;
+    margin: 10px auto;
+    color: #D4978C;
+
+}

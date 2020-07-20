@@ -1,0 +1,14 @@
+import React from 'react'
+import '../css/SamplePost.css'
+
+export default function SamplePost(props) {
+    return (
+        <div className="entireDiv">
+            <h3>{props.sampleTitle}</h3>
+            <div className="sampleEntryDiv">
+                <img className="sampleImage" src={props.image} alt=""/>
+                <p>{props.sampleParagraph}</p>
+            </div>
+        </div>
+    )
+}

@@ -1,0 +1,33 @@
+.loginDiv{
+    text-align: center;
+}
+
+
+
+.loginForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto 600px;
+    border-color: white;
+    background-color: #8C8C8C;
+    height: 150px ;
+    border-radius: 5%; 
+}
+
+.loginInput{
+    margin: 7px;
+    
+}
+
+.loginSubmit{
+    margin: auto;
+    background-color:#D4978C;
+    border:none;
+   
+}
+
+.loginSubmit:hover{
+    background-color: #76C5D3;
+}

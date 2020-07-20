@@ -1,0 +1,32 @@
+.homePageDiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 100px;
+}
+
+.introParagraph{
+    margin: 10px 220px;
+}
+
+.signUpButton{
+    margin: 40px;
+    background-color: #D4978C;
+    border:none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px; 
+}
+
+.signUpButton:hover{
+    background-color: #76C5D3;
+}
+
+.samplePostDiv{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}

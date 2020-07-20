@@ -1,0 +1,29 @@
+.createEntryForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 100px 600px;
+    border-color: white;
+}
+
+
+
+.createEntryDiv{
+    text-align: center;
+}
+
+.theInput{
+    margin: 7px;
+}
+
+.theButton{
+    margin: auto;
+    background-color:#D4978C;
+    border:none;
+   
+}
+
+.theContent{
+    height: 100px;
+}

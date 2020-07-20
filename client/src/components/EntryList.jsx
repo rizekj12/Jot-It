@@ -1,17 +1,18 @@
 import React from 'react'
-import Header from './Header'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import "../css/EntryList.css"
 
 
-export default function Entrylist(props){
+export default function Entrylist(props) {
     return (
-        <div>
-            <Header/>
-           <Link to="create-entry" ><h4>new entry</h4></Link> 
-          <h2>this is the entries list</h2>
-          {props.data && props.data.entries.map((entry) => 
-                <h3>{entry.title}</h3>  
-            )} 
+        <div className='entryListDiv'>
+            {/* <Link to="create-entry" ><h4>new entry</h4></Link> */}
+            <h2 className="ListHeadText">Your journal entries</h2>
+            {props.data && props.data.entries.map((entry) =>
+                <div className="individualEntry">
+                    <Link to={`/entry/${entry.id}`}><h3>{entry.title}</h3></Link>
+                </div>
+            )}
         </div>
     )
 }

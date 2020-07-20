@@ -1,0 +1,28 @@
+.entryListDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 100px 600px;
+    border-color: white;
+    text-align: center;
+    
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.ListHeadText{
+    color:#D4978C;
+}
+
+.individualEntry{
+    background-color: #8C8C8C;
+    margin: 10px;
+}
+
+.individualEntry:hover{
+    background-color: #D4978C;
+}
