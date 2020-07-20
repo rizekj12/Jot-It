@@ -4,11 +4,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
-margin: 100px;
+margin: 75px auto;
+width:100%;
 }
 
 .introParagraph{
     margin: 10px 220px;
+ 
 }
 
 .signUpButton{
@@ -29,4 +31,41 @@ margin: 100px;
     flex-direction: row;
     margin: auto;
     justify-content: center;
+}
+
+/* .mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+@media (max-width: 415px){
+
+  .mainDiv{
+    width:100%;
+    
+
+  }  
+
+  .homePageDiv{
+      width:137%;
+      margin:20px auto;
+      
+  }
+
+  .introParagraph{
+    margin:auto;
+    font-size: 20px;
+    padding:50px;
+  }
+
+  .samplePostDiv{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 138%;
+}
+
+
 }

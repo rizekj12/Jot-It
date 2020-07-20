@@ -46,3 +46,42 @@ img{
     color: #D4978C;
 
 }
+
+@media (max-width: 415px){
+
+    .entryDiv{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin:60px auto;
+        text-align: center;   
+        width: 140%;   
+    }
+
+    .entryButton{
+        background-color:#D4978C;
+        border: none;
+        margin: 5px;
+        height: 35px;
+        width: 70px;
+        font-size: 20px;
+    }
+    
+    .contentDiv{
+        height: 475px;
+        width: 400px;
+        }
+
+    .entryParagraph{
+            margin-top: -10px;
+            margin: 15px;
+            font-size: 20px;
+        }
+    
+    img{
+            height: 185px;
+        }
+
+
+}

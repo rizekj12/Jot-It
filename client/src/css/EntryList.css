@@ -26,3 +26,25 @@ a{
 .individualEntry:hover{
     background-color: #D4978C;
 }
+
+@media (max-width: 415px){
+
+.entryListDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    border-color: white;
+    text-align: center;
+    width: 140%;
+    
+}
+
+.individualEntry{
+   
+    margin: 20px 110px;
+    background-color: #D4978C;
+}
+
+}

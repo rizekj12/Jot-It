@@ -32,3 +32,10 @@
     width:70px;
     border-radius: 5%;
 }
+
+@media (max-width: 415px){
+    .updateForm{
+        margin: 130px 150px;
+    }
+
+}

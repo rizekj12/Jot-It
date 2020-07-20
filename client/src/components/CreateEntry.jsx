@@ -21,8 +21,9 @@ import '../css/CreateEntry.css'
 
     render() {
         return (
+            <>
+            <h2 className="ListHeadText">create a journal entry</h2>
             <div className="createEntryDiv">
-                <h2 className="ListHeadText">create a journal entry</h2>
                 <form className="createEntryForm"
                     onSubmit={(e) => {
                         e.preventDefault();
@@ -42,6 +43,7 @@ import '../css/CreateEntry.css'
                    
                 </form>
             </div>
+            </>
         )
     }
 }

@@ -5,7 +5,7 @@ import "../css/HomePage.css"
 
 export default function HomePage() {
     return (
-      <>
+      <div className="mainDiv">
         <div className="homePageDiv">
           <h2>Welcome to Jot-It!</h2>
           <p className="introParagraph">Studies show that utilizing a journal is one important way improve on your mental health, thats why Jot-it was created. Through this App you can express yourself daily, log your mood for the day, and keep track of your thoughts through time. If you don’t enjoy writing everyday no worries, start whenever you like, write whenever you like or as often as you like, however, we hope that you will utilize Jot-It for your own benefit!</p>  
@@ -28,6 +28,6 @@ export default function HomePage() {
           sampleParagraph="I am super excited about my new junior developer job!! I worked really hard to get here and I am excited to finally start today!"
           />
         </div>
-      </>
+      </div>
     )
 }

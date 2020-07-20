@@ -41,6 +41,7 @@ import "../css/UpdateEntry.css"
 
     render(){
     return (
+        
         <div className="updateEntryDiv">
             <form className="updateForm" onSubmit={(e)=> {
                 e.preventDefault();

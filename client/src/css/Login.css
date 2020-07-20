@@ -31,3 +31,34 @@
 .loginSubmit:hover{
     background-color: #76C5D3;
 }
+
+
+@media (max-width: 415px){
+    .loginInput{
+        width:70%;
+        height: 25px;
+        margin:auto;
+        
+    }
+
+    .loginForm{
+        margin: 100px;
+        /* width:115%; */
+        font-size: 40px;
+        border-radius: 0%;
+    }
+
+    .loginDiv{
+        width: 140%;
+    }
+
+    .loginSubmit{
+        margin: auto;
+        background-color:#D4978C;
+        border:none;
+        height: 35px;
+        width: 70px;
+        font-size: 20px;
+    }
+
+}

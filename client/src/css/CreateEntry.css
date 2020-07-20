@@ -3,14 +3,23 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin: 100px 600px;
+    margin: 50px 20px;
     border-color: white;
 }
 
+.ListHeadText{
+    text-align: center;
+    margin-top: 30px;
 
+}
 
 .createEntryDiv{
     text-align: center;
+    background-color:#8C8C8C;
+    border-radius: 5%;
+    margin: 50px auto;
+    height: 425px;
+    width: 375px;
 }
 
 .theInput{
@@ -18,12 +27,41 @@
 }
 
 .theButton{
-    margin: auto;
+    margin: 20px auto;
     background-color:#D4978C;
     border:none;
    
 }
 
 .theContent{
-    height: 100px;
+    height: 150px;
+}
+
+@media (max-width: 415px){
+    .createEntryForm{
+        margin: auto;
+        font-size: 20px;
+
+    }
+
+    .createEntryDiv{
+        width:100%;
+        margin: auto 85px;
+    }
+
+    .ListHeadText{
+        margin: 30px 80px;
+        margin-right: -70px;
+    
+    }
+
+    .theButton{
+        margin: 20px auto;
+        background-color:#D4978C;
+        border:none;
+        height: 30px;
+        width:70px;
+        font-size: 20px;
+       
+    }
 }

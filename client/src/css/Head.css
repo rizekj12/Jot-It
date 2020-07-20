@@ -4,6 +4,7 @@
    flex-direction: row;
    justify-content: space-between;
    color: white;
+   width:100%;
 }
 
 .loginButton{
@@ -31,4 +32,13 @@
 .Logo{
 
    margin:25px;
+}
+
+@media (max-width: 415px){
+  
+.heading{
+   /* background-color: red; */
+   width: 142%;
+}
+
 }
