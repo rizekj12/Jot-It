@@ -32,7 +32,7 @@ import '../css/CreateEntry.css'
                     }}>
                     <input className="theInput" onChange={this.props.handleChange} name="title" type="text" placeholder="Title" />
                     <input className="theInput" onChange={this.props.handleChange} name="image_url" type="text" placeholder="Image URL" />
-                    <input className="theInput theContent" onChange={this.props.handleChange} name="content" type="text" placeholder="content..." />
+                    <textarea className="theInput theContent" onChange={this.props.handleChange} name="content" type="text" placeholder="content..." ></textarea>
                     <select  className="theInput" onChange={this.props.handleChange} name="mood_id">
                         <option selected disabled>-- select a mood --</option>
                         {this.state.moods.map( (mood) => (

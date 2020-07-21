@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin: 100px 600px;
+    margin: auto 600px;
     border-color: white;
     text-align: center;
     
@@ -37,8 +37,12 @@ a{
     margin: auto;
     border-color: white;
     text-align: center;
-    width: 140%;
     
+}
+
+.ListHeadText{
+    text-align: center;
+    margin: 30px auto;
 }
 
 .individualEntry{
@@ -47,4 +51,14 @@ a{
     background-color: #D4978C;
 }
 
+}
+
+
+@media (min-width: 1000px){
+    .entryListDiv{
+     
+        margin: auto 450px;
+        
+        
+    }
 }

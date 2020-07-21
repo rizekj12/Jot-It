@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin: 50px 20px;
+    margin: 65px 20px;
     border-color: white;
 }
 
@@ -18,42 +18,45 @@
     background-color:#8C8C8C;
     border-radius: 5%;
     margin: 50px auto;
-    height: 425px;
+    height: 325px;
     width: 375px;
 }
 
 .theInput{
-    margin: 7px;
+    margin: 10px;
 }
 
 .theButton{
     margin: 20px auto;
     background-color:#D4978C;
     border:none;
+    height: 30px;
+    font-size: 15px;
    
 }
 
 .theContent{
-    height: 150px;
+    height: 100px;
     word-wrap:break-word;
 }
 
 @media (max-width: 415px){
     .createEntryForm{
-        margin: auto;
+        margin: auto 20px;
         font-size: 20px;
 
     }
 
+
     .createEntryDiv{
-        width:100%;
-        margin: auto 85px;
+        width:75%;
+
     }
 
     .ListHeadText{
-        margin: 30px 80px;
-        margin-right: -70px;
-    
+        margin: 30px;
+        margin-right: -140px;
+  
     }
 
     .theButton{
@@ -64,5 +67,9 @@
         width:70px;
         font-size: 20px;
        
+    }
+
+    .ListHeadText{
+        margin:300px;
     }
 }
