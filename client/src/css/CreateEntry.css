@@ -35,6 +35,7 @@
 
 .theContent{
     height: 150px;
+    word-wrap:break-word;
 }
 
 @media (max-width: 415px){
