@@ -11,6 +11,7 @@ export default function Entrylist(props) {
             {props.data && props.data.entries.map((entry) =>
                 <div className="individualEntry">
                     <Link to={`/entry/${entry.id}`}><h3>{entry.title}</h3></Link>
+                    <img className="moodIcon" src={entry.mood.mood_icon} alt="mood icon"/>
                 </div>
             )}
         </div>

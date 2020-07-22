@@ -49,6 +49,8 @@ a{
    
     margin: 20px 110px;
     background-color: #D4978C;
+    display: flex;
+    
 }
 
 }

@@ -12,11 +12,11 @@ User.destroy_all
 
 Mood.destroy_all
 
-happy = Mood.create(name: "happy", mood_icon:"https://ibb.co/vjfgJ78")
-sad = Mood.create(name: "sad", mood_icon: "https://ibb.co/HD1TbJb")
-meh = Mood.create(name: "meh", mood_icon: "https://ibb.co/XW3Zk8W")
-angry = Mood.create(name: "angry", mood_icon: "https://ibb.co/4t6YHN5")
-excited = Mood.create(name: "excited", mood_icon: "https://ibb.co/rwThg6y")
+happy = Mood.create(name: "happy", mood_icon:"https://i.ibb.co/4VC9j6x/happy.png")
+sad = Mood.create(name: "sad", mood_icon: "https://i.ibb.co/gMHZfnf/sad.png")
+meh = Mood.create(name: "meh", mood_icon: "https://i.ibb.co/7SRJN4S/meh.png")
+angry = Mood.create(name: "angry", mood_icon: "https://i.ibb.co/2hDsTKf/angry.png")
+excited = Mood.create(name: "excited", mood_icon: "https://i.ibb.co/gRH8GTg/excited.png")
 
 
 josh = User.create(username: "Jazel", password: "123456")

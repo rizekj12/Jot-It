@@ -38,7 +38,7 @@ class Entry extends Component {
                             <img className="journal_img" src={selectedEntry.image_url} alt="" />
                             <h3><span>feeling </span>{moodOfEntry.name}</h3>
                             <p className="entryParagraph">{selectedEntry.content}</p>
-                            {/* <img className="moodImage" src="https://ibb.co/vjfgJ78" alt=""/> */}
+                            <img className="moodImage" src={moodOfEntry.mood_icon} alt=""/>
                         </div>
                         <div className="buttonsDiv">
                             <Link to={`/update-entry/${selectedEntry.id}`}>

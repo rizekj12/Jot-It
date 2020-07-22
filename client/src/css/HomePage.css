@@ -48,7 +48,7 @@ width:100%;
   }  
 
   .homePageDiv{
-      width:137%;
+      width:100%;
       margin:20px auto;
       
   }
@@ -64,7 +64,7 @@ width:100%;
     flex-direction: column;
     margin: auto;
     justify-content: center;
-    width: 138%;
+    width: 100%;
 }
 
 
