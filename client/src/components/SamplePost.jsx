@@ -7,7 +7,9 @@ export default function SamplePost(props) {
             <h3>{props.sampleTitle}</h3>
             <div className="sampleEntryDiv">
                 <img className="sampleImage" src={props.image} alt=""/>
-                <p>{props.sampleParagraph}</p>
+                <h4>Feeling {props.sampleMood}</h4>
+                <p className="sampleText">{props.sampleParagraph}</p>
+                <img className="sampleMoodIcon" src={props.moodImage} alt="mood icon"/>
             </div>
         </div>
     )

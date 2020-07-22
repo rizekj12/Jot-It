@@ -16,16 +16,22 @@ export default function HomePage() {
           sampleTitle="Feeling Optimistic" 
           image="https://images.unsplash.com/photo-1500322969630-a26ab6eb64cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMjU4fQ&w=1000&q=80"
           sampleParagraph="I think today is going to be a good day, i'm feeling much better compared to yesterday...."
+          moodImage="https://i.ibb.co/4VC9j6x/happy.png"
+          sampleMood="happy"
           />
           <SamplePost
           sampleTitle="Rough day"
           image="https://media1.popsugar-assets.com/files/thumbor/1ETRf9cxP6Q-f7Tw6PiRs6HzMLQ/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/02/07/877/n/1922441/a8a6dd53d8e5f646_StockSnap_6BO8QPKBLD.jpg"
           sampleParagraph="today wasn't an easy day, i'm glad I can atleast vent about to my journal and feel a little bit better"
+          moodImage="https://i.ibb.co/7SRJN4S/meh.png"
+          sampleMood="meh"
           />
           <SamplePost
           sampleTitle="New Job!!!"
           image="https://upload.wikimedia.org/wikipedia/commons/2/26/Sunny_day_in_India.jpg"
           sampleParagraph="I am super excited about my new junior developer job!! I worked really hard to get here and I am excited to finally start today!"
+          moodImage="https://i.ibb.co/gRH8GTg/excited.png"
+          sampleMood="excited"
           />
         </div>
       </div>

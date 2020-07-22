@@ -4,7 +4,7 @@ import "../css/Login.css"
 export default function Login(props) {
     return (
         <div className="loginDiv">
-            <h2>Log in</h2>
+            <h2 className="loginHeadText">Log in</h2>
             <form className="loginForm" onSubmit = {(e) => {
         e.preventDefault();
         props.handleLogin();

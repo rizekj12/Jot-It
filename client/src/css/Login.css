@@ -28,6 +28,10 @@
    
 }
 
+.loginHeadText{
+    color:#D4978C;
+}
+
 .loginSubmit:hover{
     background-color: #76C5D3;
 }

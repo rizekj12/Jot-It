@@ -19,8 +19,16 @@ a{
 }
 
 .individualEntry{
-    background-color: #8C8C8C;
-    margin: 10px;
+    background-color: rgb(98, 128, 216);
+    margin: 30px 155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.moodIcon{
+    height: 30px;
+    margin: 12px 20px;
 }
 
 .individualEntry:hover{
