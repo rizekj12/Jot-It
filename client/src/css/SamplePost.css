@@ -33,6 +33,10 @@
 
 }
 
+.moodText{
+    color:#D4978C;
+}
+
 @media (max-width: 415px){
 
     .sampleEntryDiv{
