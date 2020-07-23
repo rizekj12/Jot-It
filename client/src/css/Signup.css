@@ -35,3 +35,14 @@
     background-color: #76C5D3;
 
 }
+
+@media (max-width: 415px){
+
+    .signupForm{
+        margin: auto;
+    }
+
+    .signupDiv{
+        height: 250px;
+    }
+}
