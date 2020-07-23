@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body{
   background-color: #262626;
   color: white;
+  font-family: 'Playfair Display', serif
 }

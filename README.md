@@ -2,6 +2,8 @@
 
 The Jot-It app is a personal online journal where users can record their thoughts and moods daily or more than once a day. J-Blog is an app designed for mental-health through self-reflection and personal mood tracking, with this app users will not only be able to blog but also they will be able to see past entries with mood descriptions. 
 
+https://jot-it.netlify.app
+
 ## Overview
 
 ### Goals
