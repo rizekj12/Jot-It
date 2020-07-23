@@ -49,7 +49,7 @@ import "../css/UpdateEntry.css"
             }}>
                 <input className="updateFormInput" onChange={this.handleChange} value={this.state.selectedEntry.title} name="title" type="text" placeholder="Title"/>
                 <input className="updateFormInput"onChange={this.handleChange} value={this.state.selectedEntry.image_url} name="image_url" type="text" placeholder="Image URL"/>
-                <input className="updateFormInput updateContent"onChange={this.handleChange} value={this.state.selectedEntry.content}name="content" type="text" placeholder="content..."/>
+                <textarea className="updateFormInput updateContent"onChange={this.handleChange} value={this.state.selectedEntry.content}name="content" type="text" placeholder="content..."></textarea>
                 <select className="updateFormInput" onChange={this.handleChange} name="mood_id">
                         <option selected disabled>-- select a mood --</option>
                         {this.state.moods.map( (mood) => (
