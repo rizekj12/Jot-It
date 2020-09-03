@@ -12,9 +12,9 @@
 .contentDiv{
 /* position: absolute; */
 background-color: #747373;
-height: 375px;
-width: 325px;
-border-radius: 5%;
+height: 525px;
+width: 450px;
+border-radius: 0.30rem;
 margin:auto;
 padding: 15px;
 }
@@ -31,14 +31,19 @@ padding: 15px;
     margin: 5px;
 }
 
+.entryButton:hover{
+    background-color: #76C5D3;
+}
+
 .journal_img{
-    height: 175px;
+    height: 190px;
     width: 100%;
-    border-radius: 5%;
+    /* border-radius: 5%; */
 }
 
 .entryParagraph{
     margin-top: -10px;
+    text-align: left;
 }
 
 .entryTitle{
@@ -49,14 +54,28 @@ padding: 15px;
 
 .moodImage{
     height: 40px;
-    position: absolute;
-    top: 212px;
-    right: 560px;
-
 }
 
 .moodStatus{
     color:#D4978C;
+}
+
+.entryDate{
+    color: black;
+}
+
+.iconAndDate{
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+    height: 20px;
+    justify-self: flex-end;
+}
+
+.divAgain{
+    height: auto;
+    position: relative;
+    bottom: -154px;
 }
 
 @media (max-width: 415px){

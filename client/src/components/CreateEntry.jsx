@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import { Link , withRouter} from 'react-router-dom'
 import { getMoods } from '../services/moods'
 import '../css/CreateEntry.css'
+import {
+    MorphIcon,
+    CloseButton,
+    NavButton,
+    PlusButton,
+} from 'react-svg-buttons'
 
  class CreateEntry extends Component {
     state={
@@ -39,7 +45,9 @@ import '../css/CreateEntry.css'
                             <option key={mood.id} value={mood.id}>{mood.name}</option>
                         ))}
                     </select>
-                    <button className="theButton">submit</button>
+                    <button className="theButton"><MorphIcon type="check" /></button>
+                    
+                    
                    
                 </form>
             </div>

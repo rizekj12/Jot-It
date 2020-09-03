@@ -18,8 +18,8 @@
     background-color:#8C8C8C;
     border-radius: 5%;
     margin: 50px auto;
-    height: 325px;
-    width: 375px;
+    height: 500px;
+    width: 450px;
 }
 
 .theInput{
@@ -28,15 +28,20 @@
 
 .theButton{
     margin: 20px auto;
-    background-color:#D4978C;
+    background-color:transparent;
     border:none;
     height: 30px;
     font-size: 15px;
+    border-radius: 50%;
    
 }
 
+.theButton:focus{
+    outline: none;
+}
+
 .theContent{
-    height: 100px;
+    height: 200px;
     word-wrap:break-word;
 }
 

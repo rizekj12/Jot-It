@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import { getMoods } from '../services/moods'
+import DropDown from './DropDown'
+import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import '../css/Entry.css'
 
 
 class Entry extends Component {
     state = {
-        moods: []
+        moods: [],
     }
 
     componentDidMount = () => {
@@ -19,6 +21,7 @@ class Entry extends Component {
             moods
         })
     }
+
 
     render() {
 
@@ -38,7 +41,12 @@ class Entry extends Component {
                             <img className="journal_img" src={selectedEntry.image_url} alt="" />
                             <h3 className="moodStatus">Feeling {moodOfEntry.name}</h3>
                             <p className="entryParagraph">{selectedEntry.content}</p>
-                            <img className="moodImage" src={moodOfEntry.mood_icon} alt="mood icon"/>
+                            <div className="divAgain">
+                                <div className="iconAndDate">
+                                    <h4 className="entryDate">{selectedEntry.created_at.slice(0, 10)}</h4>
+                                    <img className="moodImage" src={moodOfEntry.mood_icon} alt="mood icon" />
+                                </div>
+                            </div>
                         </div>
                         <div className="buttonsDiv">
                             <Link to={`/update-entry/${selectedEntry.id}`}>
@@ -46,7 +54,7 @@ class Entry extends Component {
                             </Link>
                             <button className="entryButton" onClick={() => this.props.handleDelete(selectedEntry.id)}>delete</button>
                         </div>
-                        
+
                     </div>
                 }
             </>
