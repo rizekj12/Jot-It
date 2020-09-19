@@ -25,7 +25,8 @@ class Home extends Component {
       image_url: "",
       content: "",
       mood_id: ""
-    }
+    },
+    validPass: true
   }
 
   componentDidMount() {
@@ -43,9 +44,13 @@ class Home extends Component {
   }
 
   handleLogin = async () => {
-    const currentUser = await loginUser(this.state.authFormData);
+    try{const currentUser = await loginUser(this.state.authFormData);
     this.setState({ currentUser })
     this.props.history.push('/entries-list');
+    }catch(error){
+      this.setState({validPass:false})
+      console.log('username or password not valid')
+    }
   }
 
   handleLogout = () => {
@@ -123,6 +128,7 @@ class Home extends Component {
           <Login
             handleLogin={this.handleLogin}
             handleChange={this.authHandleChange}
+            validPass={this.state.validPass}
           />
         </Route>
 
