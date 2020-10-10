@@ -94,7 +94,6 @@ class Home extends Component {
   handleVerify = async () => {
 
     const currentUser = await verifyUser();
-    console.log(currentUser)
     this.setState({ currentUser });
   }
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../css/EntryList.css"
-import DropDown from './DropDown'
 
 export default function Entrylist(props) {
     return (
