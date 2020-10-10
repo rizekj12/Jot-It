@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import { getMoods } from '../services/moods'
-import DropDown from './DropDown'
-import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import '../css/Entry.css'
 
 

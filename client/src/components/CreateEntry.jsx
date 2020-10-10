@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-import { Link , withRouter} from 'react-router-dom'
+import { withRouter} from 'react-router-dom'
 import { getMoods } from '../services/moods'
 import '../css/CreateEntry.css'
 import {
-    MorphIcon,
-    CloseButton,
-    NavButton,
-    PlusButton,
+    MorphIcon
 } from 'react-svg-buttons'
 
  class CreateEntry extends Component {

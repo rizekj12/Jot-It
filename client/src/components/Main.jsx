@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Head'
-import { Link, Route, withRouter } from 'react-router-dom'
+import { Route, withRouter } from 'react-router-dom'
 import Login from './Login'
 import { loginUser, registerUser, removeToken, verifyUser } from '../services/auth'
 import Signup from "./Signup"
@@ -19,6 +19,10 @@ class Home extends Component {
       password: "",
       confirmPassword: ""
     },
+    loginFormData: {
+      username: "",
+      password: "",
+    },
     currentUser: null,
     newEntry: {
       title: "",
@@ -33,6 +37,16 @@ class Home extends Component {
     this.handleVerify();
   }
 
+  loginHandleChange = (e) => {
+    const { name, value } = e.target;
+    this.setState(prevState => ({
+      loginFormData: {
+        ...prevState.loginFormData,
+        [name]: value
+      }
+    }));
+  }
+
   authHandleChange = (e) => {
     const { name, value } = e.target;
     this.setState(prevState => ({
@@ -44,7 +58,7 @@ class Home extends Component {
   }
 
   handleLogin = async () => {
-    try{const currentUser = await loginUser(this.state.authFormData);
+    try{const currentUser = await loginUser(this.state.loginFormData);
     this.setState({ currentUser })
     this.props.history.push('/entries-list');
     }catch(error){
@@ -103,7 +117,7 @@ class Home extends Component {
       currentUser: {
         ...prevState.currentUser,
         entries: prevState.currentUser.entries.map(entry => (
-          entry.id == updated.id ? updated : entry
+          entry.id === updated.id ? updated : entry
         ))
       }
     }))
@@ -126,7 +140,7 @@ class Home extends Component {
         <Route path="/login">
           <Login
             handleLogin={this.handleLogin}
-            handleChange={this.authHandleChange}
+            handleChange={this.loginHandleChange}
             validPass={this.state.validPass}
           />
         </Route>
